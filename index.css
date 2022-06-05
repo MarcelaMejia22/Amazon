@@ -1,0 +1,41 @@
+header {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+}
+
+video {
+  width: 100%;
+  margin: 0;
+}
+
+section {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.product img {
+    height: 100px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.product:not(:last-child) {
+    margin-right: 20px;
+}
